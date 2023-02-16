@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+      <h3>My Contact Details</h3>
+      <ul>
+        <li>Address: UAE, Sharjah</li>
+        <br>
+        <li><a href="tel:+971521067175">Call me</a></li>
+        <br>
+        <li><a href="https://www.linkedin.com/in/eslam-rashed-7685b372/">Linkedin</a></li>
+        <br>
+        <li><strong>Send me an email</strong></li>
+        <br>
+      </ul>
+      <form action="mailto:imrs1311@yahoo.com" method="post" enctype="text/plain">
+        <label for="name"><strong>Your Name:</strong></label>
+        <input type="text" id="name" name="name" min="4" max="12" size="12" required><br>
+        <br>
+        <label for="email"><strong>Your Email:</strong></label>
+        <input type="email" id="email" name="email" min="12" max="20" size="20" required><br>
+        <br>
+        <label for="message"><strong>Your message:</strong></label><br>
+        <textarea id="message" name="message" rows="20" cols="100" minlength="10" maxlength="2000" required></textarea><br>
+        <br>
+        <label for="file">Attach File:</label>
+        <input type="file" id="file" name="file"><br>
+        <br>
+        <input type="submit">
+      </form>
+  </body>
+</html>
